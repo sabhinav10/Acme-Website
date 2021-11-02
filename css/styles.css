@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+}
+/* Global css , can be used  anywhere*/
+.container {
+  /* To make it responsive ,percentage is used*/
+  width: 80%;
+  /* To move container class to the middle*/
+  margin: auto;
+  /* If something goes outside the div ,that content will be hidden*/
+  overflow: hidden;
+}
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  /* To make the page responsive ,so when the size of the screen changes ,the size of header should change not lower than the minimum*/
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin: 10px;
+}
+
+header .highlight,
+header.current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
